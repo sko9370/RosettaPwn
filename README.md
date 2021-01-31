@@ -8,3 +8,14 @@
 
 ## Requirements
 - python3
+- License key from MaxMind for GeoIP database
+    - account is free to make at [MaxMind](https://www.maxmind.com)
+    - create a License Key
+    - copy and save License Key
+
+## Todo
+- integrate geoip2 to replace pygeoip and deprecated `.dat` database format
+- add commandline options using argparse
+    - add option if user wants to skip new database download
+    - add option to designate path to read pcap
+    - add option to designate path to write csv output
