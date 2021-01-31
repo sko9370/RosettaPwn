@@ -2,7 +2,7 @@
 
 from distutils.core import setup
 
-setup(name='RosettaPwn',
+setup(name='rosettaPwn',
     version='1.0',
-    install_requires=['dpkt', 'pygeoip', 'pyfiglet', 'colorama'],
+    install_requires=['dpkt', 'pygeoip', 'pyfiglet', 'colorama', 'geoip2'],
     )
