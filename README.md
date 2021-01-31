@@ -19,3 +19,7 @@
     - add option if user wants to skip new database download
     - add option to designate path to read pcap
     - add option to designate path to write csv output
+
+## Resources
+- https://github.com/maxmind/GeoIP2-python
+- https://www.maxmind.com
