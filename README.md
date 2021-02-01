@@ -23,3 +23,6 @@
 ## Resources
 - https://github.com/maxmind/GeoIP2-python
 - https://www.maxmind.com
+
+## Original Author
+- CW2 Perez
