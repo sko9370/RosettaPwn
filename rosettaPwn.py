@@ -59,6 +59,7 @@ def preprocess():
 def parse_pcap(pcap_path, database):
     pcap_file = open(pcap_path, 'rb')
     pcap = dpkt.pcap.Reader(pcap_file)
+
     reader = geoip2.database.Reader(database)
     interesting = ['en-US,', 'en-US;', 'es', '*']
 
